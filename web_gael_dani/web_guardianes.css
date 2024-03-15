@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+#Contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h2, p {
+    font-size: 16px;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; /* Añade un espacio adicional a los lados */
+    text-align: left; /* Ajusta el texto a la izquierda */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+    display: inline-block; /* Para que el texto no se corte */
+    vertical-align: middle; /* Centra verticalmente */
+}
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: inline-block; /* Para que el enlace no se corte */
+    vertical-align: middle; /* Centra verticalmente */
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+video[class=xd] {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+.character {
+    margin-bottom: 40px;
+}
+.character img {
+    display: block;
+    margin: 0 auto;
+}
+.character h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.character p {
+    font-size: 14px;
+    text-align: justify;
+    margin-top: 10px;
+}
+
+
