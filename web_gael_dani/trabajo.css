@@ -1,0 +1,219 @@
+ .m-plus rounded1c-regular {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400px;
+    font-style:normal
+  }
+ 
+  body{
+    
+        background-color: #dddddd7d;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  }
+
+
+.sect {
+    width: 100%;
+    min-height: 500px;
+}
+#sect1 {
+    position: relative;
+    overflow: hidden;
+}
+
+video[class=xd] {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2
+}
+
+
+
+.Titulo_principal{
+    text-align: center;
+    font-size: 75px;
+    background-color: rgba(240, 255, 255, 0.623);
+    border-radius: 1000px;    
+}
+
+
+
+
+li{
+    font-size: 50px;
+    display:inline;
+    align-items: center;
+    text-align: center;
+}
+
+
+img[class=pd] {
+    width: 500px;
+    height: 500px;
+    position: left;
+}
+
+
+
+
+
+
+a[class=principio]{
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-left: 330px;
+    float: left;
+    width: 250px;
+    height: 75px;
+    border: black 5px solid;
+    position: center;
+    border-radius: 100px;
+    color: black;
+    text-decoration: none;
+ 
+    }
+
+
+    a:hover{
+        color: rgba(79, 80, 37, 0.822);
+    }
+
+
+div[class=Calificación]{
+        background-color: rgba(12, 12, 12, 0.486);
+        color: rgb(190, 190, 190);
+    }
+
+
+div[class=personajes]{
+    background-color: rgba(0, 0, 0, 0.637);
+    color: #fff
+}
+
+
+div[id=siconfirmo]{
+    background-color: #ddddddb9;
+    color: #333;
+}
+
+
+div[class=Trailer]{
+    background-color: bisque;
+}
+
+
+.Texto_principal{
+    text-align: center;
+    font-size: 100px;
+}
+
+
+.Barto{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 900px;
+    text-align: justify;
+    
+}
+.Kio{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 900px;
+    text-align: justify;
+    
+}
+
+.Jaime {
+    font-size: 25px;
+    text-align: justify;
+    max-width: 750px;
+    
+    
+
+}
+
+.sdfgdfg{
+    margin-top: 30px ;
+    margin-left: 10px;
+}
+
+.Textoiniciodealgo{
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.asdbvhjasbhmd{
+    width: 200px;
+    height: 200px;
+    margin-right: 800px;
+    margin-left: 100px;
+    align-items: flex-end;
+
+}
+
+
+.Pasaroncosas{
+    font-size: 25px;
+    text-align: justify;
+    max-width: 600px;
+    
+}
+
+
+#iniciodearriba{
+   
+    background-color: blue;
+}
+
+
+.zapatod{
+
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px; /* Añade un espacio adicional a los lados */
+    text-align: left; /* Ajusta el texto a la izquierda */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+footer p {
+    margin: 0;
+    display: inline-block; /* Para que el texto no se corte */
+    vertical-align: middle; /* Centra verticalmente */
+}
+footer a {
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 10px;
+    display: inline-block; /* Para que el enlace no se corte */
+    vertical-align: middle; /* Centra verticalmente */
+}
+
+.textotocahuevos{
+    font-size: 20px;
+    color: rgb(255, 255, 255); 
+}
+
+.textotocahuevo{
+    font-size: 20px;
+    color: rgb(158, 128, 128);
+}
+
